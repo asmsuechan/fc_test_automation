@@ -4,7 +4,7 @@ node_js:
 install:
 - yarn
 before_script:
-- curl -s https://gosspublic.alicdn.com/fcli/fcli-v0.20-linux-amd64.zip ./fcli.zip
+- curl -LO https://gosspublic.alicdn.com/fcli/fcli-v0.20-linux-amd64.zip ./fcli.zip
 - unzip fcli.zip
   # - yarn run createTestEnv
 script:
